@@ -13,7 +13,7 @@ def predict(model, features):
     return model.predict(features)
 
 # Bitrate
-bitrate = st.slider('Downlink Bitrate', 0, 500000, 50000)
+bitrate = st.slider('Downlink Bitrate', 0, 750000, 50000)
 
 make_prediction = st.checkbox('Make Prediction')
 
