@@ -1,8 +1,8 @@
 import subprocess
 
 # Set variables
-resource_group_name = 'your_resource_group_name'
-aks_cluster_name = 'your_aks_cluster_name'
+resource_group_name = 'Thesis'
+aks_cluster_name = 'ThesisCluster'
 deployment_yaml = '''
 apiVersion: apps/v1
 kind: Deployment
