@@ -1,6 +1,6 @@
 import streamlit as st
 import gzip
-st.title('Hello, Streamlit!')
+st.title('Anomaly Detection App')
 st.write('This is a simple Streamlit app running in a Docker container.')
 
 import pickle
